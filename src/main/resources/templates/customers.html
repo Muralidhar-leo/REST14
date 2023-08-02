@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Customers Data Table</title>
+</head>
+<body>
+<h1>Customers Data Table</h1>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Email</th>
+    <!-- Add other columns if necessary -->
+  </tr>
+  <!-- Loop through the list of customers and display them in the table -->
+  <th:block th:each="customer : ${customers}">
+    <tr>
+      <td th:text="${customer.id}"></td>
+      <td th:text="${customer.first_name}"></td>
+      <td th:text="${customer.last_name}"></td>
+      <!-- Add other columns if necessary -->
+    </tr>
+  </th:block>
+</table>
+</body>
+</html>
