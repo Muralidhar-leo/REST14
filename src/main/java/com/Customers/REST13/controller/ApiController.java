@@ -56,21 +56,20 @@ public class ApiController {
 
     @GetMapping("/")
     public String showLoginPage() {
-        return "index"; // Returns the name of the HTML login page.
+        return "index"; 
     }
 
     @PostMapping("/login")
     public String login(@RequestParam String username, @RequestParam String password, Model model) {
-        // Perform authentication here (e.g., checking credentials in the database).
-        // For demonstration purposes, let's assume the username and password are valid.
+        
         boolean isAuthenticated = false;
 
         if (isAuthenticated) {
-            List<User> customers = userRepo.findAll(); // Fetching customers data from the database using Spring Data JPA.
-            model.addAttribute("customers", customers); // Add the list of customers to the model to be displayed on the table page.
-            return "customers"; // Returns the name of the HTML customers table page.
+            List<User> customers = userRepo.findAll(); 
+            model.addAttribute("customers", customers); 
+            return "customers"; 
         } else {
-            return "redirect:/"; // Redirect back to the login page if the login fails.
+            return "redirect:/"; 
         }
     }
 
