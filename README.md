@@ -13,25 +13,31 @@ OUTPUT:
 
 Creating Customers:
 
-![image](https://github.com/Muralidhar-leo/REST14/assets/129084859/cd61a944-9674-42de-80e9-c8867e137722)
-
+![create customer](https://github.com/Muralidhar-leo/REST14/assets/129084859/b67d614d-0c54-4ddb-a38a-af77429436ba)
 
 
 Reading Customers:
 
-![image](https://github.com/Muralidhar-leo/REST14/assets/129084859/28f902ac-6844-46f4-8488-36e52661d5ee)
+![Reading customers](https://github.com/Muralidhar-leo/REST14/assets/129084859/52c8648f-0b30-4e4b-99df-adda6e27a561)
 
 
 
 Updating customers:
 
-![image](https://github.com/Muralidhar-leo/REST14/assets/129084859/4f14566b-fbae-44c8-b781-d171bffc76af)
 
+
+![Updating Customer](https://github.com/Muralidhar-leo/REST14/assets/129084859/f642f99d-9e27-458f-ab5d-e7f29f8f0992)
 
 
 Deleting Customer:
 
+![Deleting Customer](https://github.com/Muralidhar-leo/REST14/assets/129084859/2c9d7fdc-826a-4009-928c-ce487e6d833f)
 
-![image](https://github.com/Muralidhar-leo/REST14/assets/129084859/8bcfc1ba-fd46-419f-850c-7cd621e115e8)
+
+
+
+
+
+
 
 
